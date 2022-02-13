@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  */
 public class Asg3 {
-
+	
 	public static void main(String[] args) {
 
 		/* Initializing variables */
