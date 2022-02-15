@@ -56,10 +56,10 @@ public class ForLoops {
 		for (int row = 1; row < recNum*2-1; row++) {
 			
 			for(int n = 1; n < recNum*2-1; n++) {
-				if((row <= recNum && n == recNum-row+1 || n == recNum+row-1)|| (row >= recNum && n == row-recNum-1 || n == 2*recNum-(row-recNum+1)))
-				System.out.print(recNum+ " ");
-				else {
-					System.out.print(" ");
+				if((row <= recNum && n == recNum-row+1 ))
+				System.out.print(recNum + " ");
+				else if((row >= recNum || n == row-recNum-1 || n == 2*recNum-(row-recNum+1) || n == recNum+row-1)){
+					System.out.print(recNum--);
 				}
 				
 				
